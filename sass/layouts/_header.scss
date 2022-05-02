@@ -1,12 +1,14 @@
 .header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-content {
     display: flex;
     align-items: center;
 
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    border-bottom: 1px solid #ECECEC;
 }
 
 .site-nav {

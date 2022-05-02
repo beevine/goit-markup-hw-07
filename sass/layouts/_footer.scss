@@ -35,13 +35,19 @@
     letter-spacing: 0.03em;
 }
 
-.adress__item:not(:last-child) {
+.adress__item {
     margin-bottom: 9px;
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
-.adress__item:hover,
-.adress__item:focus {
-    color: var(--accent-color);
+
+.adress__item:last-child {
+    margin-bottom: 0;
 }
+
 
 /* --- join us --- */
 

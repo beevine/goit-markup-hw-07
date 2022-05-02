@@ -4,7 +4,6 @@
 // base styles
 @import "./base/reset";
 @import "./base/base";
-@import "./base/typography";
 
 // layouts styles
 @import "./layouts/header";
@@ -16,11 +15,13 @@
 @import "./components/logo";
 @import "./components/about";
 @import "./components/fundamentals";
-@import "./components/_loyal-customers";
+@import "./components/loyal-customers";
 @import "./components/modal";
 @import "./components/portfolio";
 @import "./components/team";
 @import "./components/we-do";
 
 //vendors
-@import "./vendors/_visually-hidden";
+@import "./vendors/modern-normalize";
+@import "./vendors/visually-hidden";
+
