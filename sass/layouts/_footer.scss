@@ -38,14 +38,10 @@
 .adress__item {
     margin-bottom: 9px;
 
-//     &:hover,
-//     &:focus {
-//         color: var(--accent-color);
-//     }
-// }
+}
 
-.adress__item:hover,
-.adress__item:focus {
+.adress__link:hover,
+.adress__link:focus {
     color: var(--accent-color);
 }
 
